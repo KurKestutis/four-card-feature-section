@@ -1,3 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  min-height: 25vh;
+  background-color: aqua;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.header__welcome {
+  background-color: aliceblue;
+}
+
+.header__welcome__slogan {
+  background-color: aquamarine;
+}
+
+.header__welcome__name {
+  background-color: bisque;
+}
+
+.header__text {
+  background-color: burlywood;
+  width: 35rem;
+}
+
+.main {
+  background-color: aquamarine;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 260px;
+  grid-auto-rows: 110px;
+  min-height: 72vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main .section {
+  margin: 0.5rem;
+}
+
+.main__section-1 {
+  background-color: #ecbf41;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 1;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.main__section-2 {
+  background-color: #99da32;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.main__section-3 {
+  background-color: #5eabcf;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+  -ms-grid-row: 3;
+      grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.main__section-4 {
+  background-color: #b44edd;
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.footer {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  min-height: 2vh;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

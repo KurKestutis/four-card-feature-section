@@ -1,7 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  min-height: 25vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 7rem;
+
+  &__welcome {
+    background-color: aliceblue;
+
+    &__slogan {
+      background-color: aquamarine;
+    }
+
+    &__name {
+      background-color: bisque;
+    }
+  }
+
+  &__text {
+    background-color: burlywood;
+    width: 35rem;
+  }
+}
+
+.main {
+  background-color: aquamarine;
+  display: grid;
+  grid-auto-columns: 260px;
+  grid-auto-rows: 110px;
+  min-height: 72vh;
+  justify-content: center;
+  align-content: center;
+
+  .section {
+    margin: 0.5rem;
+  }
+
+  &__section-1 {
+    background-color: rgb(236, 191, 65);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+
+  &__section-2 {
+    background-color: rgb(153, 218, 50);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  &__section-3 {
+    background-color: rgb(94, 171, 207);
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+
+  &__section-4 {
+    background-color: rgb(180, 78, 221);
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+}
+
+.footer {
+  justify-self: end;
+  min-height: 2vh;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
