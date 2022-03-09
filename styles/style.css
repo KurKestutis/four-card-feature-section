@@ -15,11 +15,12 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 15px;
+  background-color: rgba(163, 165, 174, 0.2);
 }
 
 .header {
   min-height: 25vh;
-  background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,37 +31,36 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   text-align: center;
   padding-top: 7rem;
+  line-height: 1.2;
+  width: 33rem;
 }
 
-.header__welcome {
-  background-color: aliceblue;
+.header__top {
+  font-weight: 200;
+  font-size: 2rem;
 }
 
-.header__welcome__slogan {
-  background-color: aquamarine;
+.header__mid {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
-.header__welcome__name {
-  background-color: bisque;
-}
-
-.header__text {
-  background-color: burlywood;
-  width: 35rem;
+.header__bottom {
+  font-weight: 200;
 }
 
 .main {
-  background-color: aquamarine;
   display: -ms-grid;
   display: grid;
-  grid-auto-columns: 260px;
-  grid-auto-rows: 110px;
-  min-height: 72vh;
+  grid-auto-columns: 350px;
+  grid-auto-rows: 115px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -70,10 +70,31 @@
 
 .main .section {
   margin: 0.5rem;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  padding: 1rem;
+  background-color: #fafafa;
+  position: relative;
+  cursor: pointer;
 }
 
-.main__section-1 {
-  background-color: #ecbf41;
+.main .section p {
+  font-weight: 200;
+  color: #a3a5ae;
+  padding-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.main .section__icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 70px;
+  width: 70px;
+  padding: 0 1.2rem 1.2rem 0;
+}
+
+.main__section--1 {
+  border-top: 0.3rem solid #45d3d3;
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 1;
@@ -82,8 +103,8 @@
   grid-row-end: 4;
 }
 
-.main__section-2 {
-  background-color: #99da32;
+.main__section--2 {
+  border-top: 0.3rem solid #ea5353;
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 3;
@@ -92,8 +113,8 @@
   grid-row-end: 3;
 }
 
-.main__section-3 {
-  background-color: #5eabcf;
+.main__section--3 {
+  border-top: 0.3rem solid #fcaf4a;
   -ms-grid-column: 2;
       grid-column-start: 2;
   grid-column-end: 3;
@@ -102,8 +123,8 @@
   grid-row-end: 5;
 }
 
-.main__section-4 {
-  background-color: #b44edd;
+.main__section--4 {
+  border-top: 0.3rem solid #549ef2;
   -ms-grid-column: 3;
       grid-column-start: 3;
   grid-column-end: 3;
