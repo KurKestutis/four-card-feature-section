@@ -16,11 +16,10 @@
       -ms-flex-direction: column;
           flex-direction: column;
   font-size: 15px;
-  background-color: rgba(163, 165, 174, 0.2);
+  background-color: rgba(163, 165, 174, 0.25);
 }
 
 .header {
-  min-height: 25vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,17 +39,13 @@
 }
 
 .header__top {
+  font-size: 34px;
   font-weight: 200;
-  font-size: 2rem;
-}
-
-.header__mid {
-  font-size: 2rem;
-  font-weight: 700;
 }
 
 .header__bottom {
   font-weight: 200;
+  padding-top: 1rem;
 }
 
 .main {
@@ -69,12 +64,21 @@
 }
 
 .main .section {
-  margin: 0.5rem;
-  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-  padding: 1rem;
-  background-color: #fafafa;
   position: relative;
   cursor: pointer;
+  background-color: #fafafa;
+  margin: 0.7rem;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  padding: 1rem;
+  -webkit-box-shadow: -3px 13px 26px -14px rgba(0, 0, 0, 0.74);
+          box-shadow: -3px 13px 26px -14px rgba(0, 0, 0, 0.74);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.main .section:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .main .section p {
@@ -136,7 +140,7 @@
 .footer {
   -ms-grid-column-align: end;
       justify-self: end;
-  min-height: 2vh;
+  padding: 5px;
 }
 
 .attribution {
@@ -146,5 +150,39 @@
 
 .attribution a {
   color: #3e52a3;
+}
+
+@media (max-width: 1040px) {
+  .header {
+    padding: 2rem 0;
+    width: 320px;
+  }
+  .header__top {
+    font-size: 26px;
+  }
+  .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section {
+    width: 320px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 1px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
