@@ -25,7 +25,7 @@ $veryLightGray: hsl(0, 0%, 98%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: $grayishBlueLit;
+  background-color: $veryLightGray;
 }
 
 .header {
@@ -62,7 +62,7 @@ $veryLightGray: hsl(0, 0%, 98%);
     position: relative;
     font-size: 12.5px;
     cursor: pointer;
-    background-color: $veryLightGray;
+    background-color: rgb(255, 255, 255);
     margin: 0.5rem;
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
     padding: 1.5rem;

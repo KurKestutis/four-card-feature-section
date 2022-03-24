@@ -15,7 +15,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: rgba(163, 165, 174, 0.25);
+  background-color: #fafafa;
 }
 
 .header {
@@ -67,7 +67,7 @@
   position: relative;
   font-size: 12.5px;
   cursor: pointer;
-  background-color: #fafafa;
+  background-color: white;
   margin: 0.5rem;
   border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
   padding: 1.5rem;
