@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/KurKestutis/four-card-feature-section)
-- Live Site URL: [Add live site URL here](https://kurkestutis.github.io/four-card-feature-section/)
+- Solution URL: [https://github.com/KurKestutis/four-card-feature-section](https://github.com/KurKestutis/four-card-feature-section)
+- Live Site URL: [https://kurkestutis.github.io/four-card-feature-section/](https://kurkestutis.github.io/four-card-feature-section/)
 
 ## My process
 
@@ -45,5 +45,5 @@ Users should be able to:
 ## Author
 
 - Website - [Kestutis Kurienius](https://github.com/KurKestutis)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/KurKestutis)
+- Frontend Mentor - [@KurKestutis](https://www.frontendmentor.io/profile/KurKestutis)
 - Twitter - [@kurkestutis](https://twitter.com/kurkestutis)
