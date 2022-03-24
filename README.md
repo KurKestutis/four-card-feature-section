@@ -44,7 +44,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Kestutis Kurienius](https://github.com/KurKestutis)
-- LinkedIn - [Kestutis Kurienius](https://www.linkedin.com/in/k%C4%99stutis-kurienius-39501531/)
+- Website - [github.com/KurKestutis](https://github.com/KurKestutis)
+- LinkedIn - [Kęstutis Kurienius](https://www.linkedin.com/in/k%C4%99stutis-kurienius-39501531/)
 - Frontend Mentor - [@KurKestutis](https://www.frontendmentor.io/profile/KurKestutis)
 - Twitter - [@kurkestutis](https://twitter.com/kurkestutis)
